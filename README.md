@@ -5,6 +5,8 @@ Cada ejercicio se encuentra en un archivo independiente.
 ---
 
 ## Ejercicio 1 - Calculadora
+[Ver código](./Ejercicio_1_Calculadora.py)
+
 Para desarrollar este ejercicio se utilizaron estructuras condicionales (if y elif) para evaluar qué operación matemática debe ejecutarse según el operador ingresado por el usuario.
 
 Primero se definieron las operaciones permitidas dentro de una tupla, ya que este tipo de colección es inmutable. Esto evita que las operaciones puedan modificarse accidentalmente durante la ejecución del programa.
