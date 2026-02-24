@@ -41,4 +41,4 @@ El punto clave fue el uso del operador módulo (%), el cual devuelve el residuo 
 
 Recordando que un número primo se define como aquel que solo es divisible por 1 y por sí mismo, se evaluó cada número probando posibles divisores. Si en algún momento el residuo es 0, se descarta como primo.
 
-Es importante considerar que el número 1 no es primo, ya que no cumple con la definición matemática de número primo.
+Es importante considerar que el número 1 no es primo, ya que no cumple con la definición matemática de número primo. 
