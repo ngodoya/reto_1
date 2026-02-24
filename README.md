@@ -35,6 +35,7 @@ El ciclo while compara los caracteres desde los extremos hacia el centro. Si en 
 ## Ejercicio 3 - Primos
 
 [Ver Código](./Ejercicio_3_Primos.py)
+
 Este ejercicio resultó más complejo debido a que fue necesario utilizar un ciclo for dentro de otro para evaluar cada número de la lista y verificar si es primo.
 
 El punto clave fue el uso del operador módulo (%), el cual devuelve el residuo de una división. Si un número es divisible por otro, el resultado del módulo es 0. A partir de esta propiedad, se puede determinar si un número tiene divisores distintos de 1 y de sí mismo.
@@ -42,3 +43,16 @@ El punto clave fue el uso del operador módulo (%), el cual devuelve el residuo 
 Recordando que un número primo se define como aquel que solo es divisible por 1 y por sí mismo, se evaluó cada número probando posibles divisores. Si en algún momento el residuo es 0, se descarta como primo.
 
 Es importante considerar que el número 1 no es primo, ya que no cumple con la definición matemática de número primo. 
+
+---
+
+## Ejercicio 4 - Suma Consecutiva
+
+[Ver Código](./Ejercicio_4_Suma_Consecutiva.py)
+
+
+En este ejercicio se utilizó la iteración sobre listas para calcular la suma de elementos consecutivos y determinar la mayor suma posible.
+
+Es importante validar que la lista tenga al menos dos elementos, ya que con un solo elemento no es posible realizar una suma consecutiva.
+
+Se emplea range(len(lista) - 1) para recorrer los índices de la lista. Esto se debe a que en Python las listas están indexadas desde 0, por lo que si una lista tiene n elementos, su último índice es n - 1. Como en cada iteración se accede a lista[i] y lista[i + 1], es necesario restar 1 al rango para evitar un error de índice fuera de rango (IndexError).
