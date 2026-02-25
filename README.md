@@ -56,3 +56,9 @@ En este ejercicio se utilizó la iteración sobre listas para calcular la suma d
 Es importante validar que la lista tenga al menos dos elementos, ya que con un solo elemento no es posible realizar una suma consecutiva.
 
 Se emplea range(len(lista) - 1) para recorrer los índices de la lista. Esto se debe a que en Python las listas están indexadas desde 0, por lo que si una lista tiene n elementos, su último índice es n - 1. Como en cada iteración se accede a lista[i] y lista[i + 1], es necesario restar 1 al rango para evitar un error de índice fuera de rango (IndexError).
+
+## Ejercicio 5 - Caracteres Iguales
+
+[Ver Código](./Ejercicio_5_Mismos_Caracteres.py)
+
+Los diccionarios son la mejor opcion para trabajar con esto ya que podemos relacionar palabras en una clave y llamar esa clave, además de aprovecharnos de una funcion sorted que nos organiza en una lista los elementos por su orden, el join los junta en una cadena de texto y ya simplemente tenemos que utilizar los if para sber si tenemos que añadir una clave o añadir elementos a una clave.

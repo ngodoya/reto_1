@@ -1,3 +1,8 @@
+"""
+Escribir una función que reciba una lista de números enteros 
+y retorne la mayor suma entre dos elementos consecutivos.
+"""
+
 def suma_consecutiva(lista: list) -> int | str:
     if len(lista) < 2:
         return 'La lista debe tener 2 elementos al menos'
