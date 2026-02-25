@@ -62,3 +62,4 @@ Se emplea range(len(lista) - 1) para recorrer los índices de la lista. Esto se 
 [Ver Código](./Ejercicio_5_Mismos_Caracteres.py)
 
 Los diccionarios son la mejor opcion para trabajar con esto ya que podemos relacionar palabras en una clave y llamar esa clave, además de aprovecharnos de una funcion sorted que nos organiza en una lista los elementos por su orden, el join los junta en una cadena de texto y ya simplemente tenemos que utilizar los if para sber si tenemos que añadir una clave o añadir elementos a una clave.
+

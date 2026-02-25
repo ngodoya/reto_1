@@ -6,7 +6,7 @@ caracteres. e.g. entrada: ["amor", "roma", "perro"],
 salida ["amor", "roma"]
 """
 
-def mismos_caracteres(lista):
+def mismos_caracteres(lista: list) ->list:
     dic = {}
     for word in lista:
         clave = ''.join(sorted(word))
@@ -19,3 +19,5 @@ def mismos_caracteres(lista):
         if len(group) > 1:
             result.extend(group)
     return result
+
+print(mismos_caracteres(["amor", "roma", "perro"]))
